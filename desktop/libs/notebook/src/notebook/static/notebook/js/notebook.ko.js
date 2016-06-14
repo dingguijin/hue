@@ -1859,7 +1859,7 @@
     };
 
     self.saveScheduler = function() {
-      schedulerViewModel.coordinator.name('My daily run');
+      schedulerViewModel.coordinator.name('My daily run'); 
       schedulerViewModel.save();  // {"status": 0, "message": "Saved !", "id": 52677}
     };
 
